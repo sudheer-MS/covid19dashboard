@@ -1,0 +1,132 @@
+.state-data-bg {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #161625;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.state-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.state-name-heading {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 18px;
+  color: #0ea5e9;
+  background: #0284c729;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+  max-width: 150px;
+}
+.updated-date {
+  font-family: Roboto;
+  font-size: 12px;
+  color: #cbd5e1;
+}
+.tested-text {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  color: #94a3b8;
+}
+
+.districts-heading {
+  font-family: Roboto;
+  font-size: 24px;
+  color: #ff073a;
+}
+
+.districts-list {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.top-districts-item {
+  display: flex;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 12px;
+  color: #94a3b8;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding-right: 5px;
+  width: 130px;
+}
+
+.mar {
+  margin-right: 3px;
+  width: 40px;
+}
+.mar-1 {
+  width: 90px;
+}
+
+@media screen and (min-width: 576px) {
+  .state-name-heading {
+    font-size: 34px;
+    padding: 10px;
+    max-width: 350px;
+  }
+  .updated-date {
+    font-size: 18px;
+  }
+  .tested-text {
+    font-size: 18px;
+  }
+  .top-districts-item {
+    font-size: 14px;
+    width: 170px;
+  }
+  .mar {
+    margin-right: 3px;
+    width: 50px;
+  }
+  .mar-1 {
+    width: 130px;
+  }
+}
+.info- {
+  color: #f1f5f9;
+  font-size: 9px;
+}
+.trends-button {
+  width: 100px;
+  height: 40px;
+  margin-right: 5px;
+  margin-left: 5px;
+  background: #1c1c2b;
+  outline: none;
+  border: none;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #64748b;
+  cursor: pointer;
+}
+
+.trends-button-s {
+  width: 100px;
+  height: 40px;
+  margin-right: 5px;
+  margin-left: 5px;
+  background: #1e1e30;
+  outline: none;
+  border: none;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #e2e8f0;
+  cursor: pointer;
+}

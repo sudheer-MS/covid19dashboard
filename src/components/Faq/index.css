@@ -1,0 +1,25 @@
+.question {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 12px;
+  color: #94a3b8;
+}
+
+.answer {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 12px;
+  color: #007bff;
+}
+@media screen and (min-width: 576px) {
+  .question {
+    font-size: 16px;
+  }
+
+  .answer {
+    font-size: 16px;
+  }
+}
+.faq-list-item {
+  color: #f8fafc;
+}

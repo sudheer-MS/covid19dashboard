@@ -1,0 +1,76 @@
+.table-row {
+  display: table;
+  width: 100%;
+  background: #1e1e30;
+  font-size: 11px;
+  margin: 0px;
+}
+
+.table-head {
+  background: #8665f7;
+  box-shadow: none;
+  color: #fff;
+  font-weight: 600;
+}
+.table-head .table-cell {
+  border-right: none;
+}
+.table-cell {
+  display: table-cell;
+  width: 60px;
+  text-align: center;
+  vertical-align: middle;
+}
+.paragraph {
+  width: 50px;
+  color: #f1f5f9;
+  font-family: roboto;
+  font-weight: 600;
+}
+.first-cell {
+  text-align: left;
+  padding-left: 10px;
+}
+.last-cell {
+  padding-right: 10px;
+  border-right: none;
+}
+@media screen and (min-width: 576px) {
+  .table-row {
+    font-size: 14px;
+  }
+  .table-cell {
+    width: 100px;
+  }
+  .paragraph {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .population {
+    display: none;
+  }
+}
+.confirmedp {
+  color: #ff073a;
+}
+.activep {
+  color: #007bff;
+}
+.recoveredp {
+  color: #28a745;
+}
+.deceasedp {
+  color: #6c757d;
+}
+.populationp {
+  color: #94a3b8;
+}
+.h:hover {
+  background: #2f2f43;
+  border-radius: 5px;
+}
+.state-item-link {
+  width: 100%;
+  text-decoration: none;
+}

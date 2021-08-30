@@ -1,0 +1,45 @@
+.confirmed-ch {
+  background-color: #331427;
+  border-radius: 7px;
+  margin: 10px;
+  padding: 10px;
+}
+.active-ch {
+  background-color: #132240;
+  border-radius: 7px;
+  margin: 10px;
+  padding: 10px;
+}
+.recovered-ch {
+  background-color: #182829;
+  border-radius: 7px;
+  margin: 10px;
+  padding: 10px;
+}
+.deceased-ch {
+  background-color: #212230;
+  border-radius: 7px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.tested-ch {
+  background-color: #230f41;
+  border-radius: 7px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.vaccine-ch {
+  background-color: #2e1e30;
+  border-radius: 7px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.test-positive-ch {
+  background-color: #332323;
+  border-radius: 7px;
+  margin: 10px;
+  padding: 10px;
+}
